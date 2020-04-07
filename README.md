@@ -5,6 +5,10 @@
 ## loading
 ### loading1
 * 圆圈loading
+### loading2
+* 时空隧道
+### loading3
+* 波浪loading
 
 ## button
 ### button1

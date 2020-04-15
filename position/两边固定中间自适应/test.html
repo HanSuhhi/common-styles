@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		h1 {
+			color: white;
+		}
+		.first {
+			width: 100%;
+			height: 500px;
+		}
+		.first > div:nth-of-type(1) {
+			width: 30px;
+			height: 100%;
+			background-color: red;
+			float: left;
+			display: inline-block;
+		}
+		.first > div:nth-of-type(3) {
+			width: 30px;
+			height: 100%;
+			background-color: blue;
+			float: right;
+			display: inline-block;
+		}
+		.first > div:nth-of-type(2) {
+			width: calc(100% - 60px);
+			height: 100%;
+			background: black;
+			display: inline-block;
+		}
+		.second {
+			display: flex;
+			margin-top: 1rem;
+			width: 100%;
+			height: 500px;
+		}
+		.second > div:nth-of-type(1) {
+			width: 30px;
+			background-color: red;
+		}
+		.second > div:nth-of-type(3) {
+			width: 30px;
+			background-color: blue;
+		}
+		.second > div:nth-of-type(2) {
+			width: calc(100% - 60px);
+			background-color: black;
+		}
+		.third {
+			display: table;
+			margin-top: 1rem;
+			width: 100%;
+			height: 500px;
+		}
+		.third > div:nth-of-type(1) {
+			display: table-cell;
+			width: 30px;
+			background-color: red;
+		}
+		.third > div:nth-of-type(3) {
+			display: table-cell;
+			width: 30px;
+			background-color: blue;
+		}
+		.third > div:nth-of-type(2) {
+			display: table-cell;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="first">
+		<div></div>
+		<div>
+			<h1>1</h1>
+		</div>
+		<div></div>
+	</div>
+	<div class="second">
+		<div></div>
+		<div>
+			<h1>2</h1>
+		</div>
+		<div></div>
+	</div>
+	<div class="third">
+		<div></div>
+		<div>
+			<h1>3</h1>
+		</div>
+		<div></div>
+	</div>
+	<div class="fourth">
+		<div></div>
+		<div>
+			<h1>4</h1>
+		</div>
+		<div></div>
+	</div>
+</body>
+</html>
